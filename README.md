@@ -1,3 +1,5 @@
-To Create User Data, Execute the command : UserData.create
+Please Follow the Steps to run the Application :
 
-To run the Rack application, Execute the command : rackup
+To Create User Data, Execute the command in the Terminal : ruby user_data.rb
+
+To run the Rack application, Execute the command in the Terminal : rackup
