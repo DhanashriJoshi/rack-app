@@ -7,7 +7,7 @@ class MysqlConnectionService
       :host => "localhost",
       :database => "rack_app",
       :username => "root",
-      :password => nil
+      :password => 'root'
     )
   end
 

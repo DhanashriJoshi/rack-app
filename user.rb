@@ -10,7 +10,7 @@ class User
 
   def call
     if (@search_pattern != nil) && (@search_pattern != '')
-      s = MysqlConnectionService.new._query("select * from users where name like '%#{@search_pattern}%'")
+      s = MysqlConnectionService.new._query("select * from Users where name like '%#{@search_pattern}%'")
       obj = s.map{|u| {name: u['name'], contact_no: u['contact_no'],  email: u["email"]}}
       get_response('User fetched Successfully', 200, obj)
     else
